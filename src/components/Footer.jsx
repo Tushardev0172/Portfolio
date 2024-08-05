@@ -44,7 +44,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="w-full h-auto text-white  bg-black p-4 md:hidden">
+    <div className="w-full h-auto text-white  bg-black p-4 md:hidden font-default">
       <ul className="items-center flex justify-evenly px-4 cursor-pointer capitalize font-medium text-gray-500 gap-4">
         {links.map(({ id, child, href, download }) => (
           <li key={id} className="flex">

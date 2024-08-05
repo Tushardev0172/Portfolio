@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-auto bg-gradient-to-b from-gray-800 to-black text-white lg:py-20 xs:py-16"
+      className="w-full h-auto bg-gradient-to-b from-gray-800 to-black text-white lg:py-20 xs:py-16 font-default"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -16,9 +16,9 @@ const About = () => {
           I completed my schooling in 2019, with a focus on Information
           Technology during my senior secondary education. I then pursued a
           Bachelor's degree in Computer Applications from Sri Guru Gobind Singh
-          College in Chandigarh (2019 - 2022), affiliated with Panjab University.
-          During this time, I gained foundational skills in C, C++, SDLC, PHP,
-          and VB.NET.
+          College in Chandigarh (2019 - 2022), affiliated with Panjab
+          University. During this time, I gained foundational skills in C, C++,
+          SDLC, PHP, and VB.NET.
         </p>
         <br />
         <p className="text-sm xs:text-base sm:text-lg md:text-xl">

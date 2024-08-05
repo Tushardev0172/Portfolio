@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         myName: ["Sofia", "Static"],
+        default: ["Raleway", "sans-serif"],
       },
     },
     screens: {
