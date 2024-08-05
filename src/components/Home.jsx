@@ -7,14 +7,14 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-auto bg-gradient-to-b from-black via-black to-gray-800 lg:py-24 xs:py-12 font-default"
+      className="w-full h-auto bg-gradient-to-t from-gray-900 to-zinc-900 lg:py-24 xs:py-12 font-default"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center pt-14 h-full px-4 lg:gap-0 xs:gap-6">
         <div className="flex flex-col justify-center h-full md:w-2/3">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
             I am a Frontend Developer and a fresher in the field
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="py-4 max-w-md text-white">
             Having acquired a diverse set of skills, including React.js,
             Next.js, JavaScript, Node.js, Express.js, and the MERN stack.
             Additionally, I have experience with Solidity, Python, Git, GitHub,
