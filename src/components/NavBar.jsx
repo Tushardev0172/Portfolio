@@ -15,15 +15,24 @@ const NavBar = () => {
     },
     {
       id: 3,
-      link: "projects",
+      link: "skills",
     },
     {
       id: 4,
-      link: "skills",
+      link: "projects",
     },
     {
       id: 5,
       link: "contact",
+    },
+  ];
+
+  const resume = [
+    {
+      id: 1,
+      child: <>Resume</>,
+      href: "/resume.pdf",
+      download: false,
     },
   ];
 
@@ -44,8 +53,22 @@ const NavBar = () => {
       </ul>
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-50 text-gray-500 xs:visible md:hidden"
+        className="cursor-pointer pr-4 z-50 text-gray-500 xs:visible md:hidden flex gap-8 items-center"
       >
+        {!nav &&
+          resume.map(({ id, child, href, download }) => (
+            <li key={id} className="flex" title="Resume">
+              <a
+                href={href}
+                className="flex xs:flex-col gap-2 items-center text-gray-500 hover:text-white duration-100 w-full"
+                download={download}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {child}
+              </a>
+            </li>
+          ))}
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
       {nav && (

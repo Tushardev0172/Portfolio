@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Experience from "./components/Skills";
+import Skiils from "./components/Skills";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Porjects from "./components/Projects";
@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Skiils />
       <Porjects />
-      <Experience />
       <Contact />
       <Footer />
       <SocialLinks />
