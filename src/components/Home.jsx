@@ -1,6 +1,5 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { Link } from "react-scroll";
 
