@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
             >
               Porjects
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight className="ml-1" />
+                <TbArrowBadgeRightFilled className="ml-1" />
               </span>
             </Link>
           </div>

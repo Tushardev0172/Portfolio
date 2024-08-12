@@ -40,8 +40,8 @@ const Contact = () => {
               placeholder="Enter your message"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
-            <button className="text-white font-bold bg-gradient-to-l from-[#6E45E2] to-[#88D3CE] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
+            <button className="text-white font-bold bg-gradient-to-t from-[#6E45E2] to-[#88D3CE] px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+              Send Message
             </button>
           </form>
         </div>
