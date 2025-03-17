@@ -12,13 +12,14 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center pt-14 h-full px-4 lg:gap-0 xs:gap-6">
         <div className="flex flex-col justify-center h-full md:w-2/3">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
-            I am a Frontend Developer and a fresher in the field
+            I am a Developer <br />
+            and a fresher in the field
           </h2>
           <p className="py-4 max-w-md text-white">
             Having acquired a diverse set of skills, including React.js,
             Next.js, JavaScript, Node.js, Express.js, and the MERN stack.
             Additionally, I have experience with Solidity, Python, Git, GitHub,
-            Tailwind CSS, CSS, and HTML.
+            PHP, Tailwind CSS, CSS, and HTML.
           </p>
           <div>
             <Link

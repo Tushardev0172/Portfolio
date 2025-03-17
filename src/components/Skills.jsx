@@ -12,6 +12,7 @@ import solidity from "../assets/solidity.png";
 import python from "../assets/python.png";
 import blockchain from "../assets/blockchain.png";
 import node from "../assets/node.png";
+import php from "../assets/php.png";
 
 const Skills = () => {
   const techs = [
@@ -35,60 +36,66 @@ const Skills = () => {
     },
     {
       id: 4,
+      src: php,
+      title: "PHP",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 5,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 5,
+      id: 6,
       src: reactImage,
       title: "React.JS",
       style: "shadow-blue-600",
     },
     {
-      id: 6,
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 7,
+      id: 8,
       src: nextjs,
       title: "Next.js",
       style: "shadow-white",
     },
     {
-      id: 8,
+      id: 9,
       src: git,
       title: "Git",
       style: "shadow-red-400",
     },
     {
-      id: 9,
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 10,
+      id: 11,
       src: postman,
       title: "Postman App",
       style: "shadow-orange-400",
     },
     {
-      id: 11,
+      id: 12,
       src: solidity,
       title: "Solidity",
       style: "shadow-gray-600",
     },
     {
-      id: 12,
+      id: 13,
       src: python,
       title: "Python",
       style: "shadow-yellow-500",
     },
     {
-      id: 13,
+      id: 14,
       src: node,
       title: "Node.js",
       style: "shadow-green-700",
@@ -109,7 +116,7 @@ const Skills = () => {
         </div>
 
         <div className="w-full grid grid-cols-2 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-4 sm:px-0">
-          {techs.map(({ id, src, title, style, hover }) => (
+          {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md hover:shadow-current transition-all  py-2 rounded-lg ${style}`}
