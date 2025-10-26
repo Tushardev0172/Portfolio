@@ -8,7 +8,6 @@ import postman from "../assets/postman.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import git from "../assets/git.png";
-import solidity from "../assets/solidity.png";
 import python from "../assets/python.png";
 import blockchain from "../assets/blockchain.png";
 import node from "../assets/node.png";
@@ -84,18 +83,12 @@ const Skills = () => {
     },
     {
       id: 12,
-      src: solidity,
-      title: "Solidity",
-      style: "shadow-gray-600",
-    },
-    {
-      id: 13,
       src: python,
       title: "Python",
       style: "shadow-yellow-500",
     },
     {
-      id: 14,
+      id: 13,
       src: node,
       title: "Node.js",
       style: "shadow-green-700",
